@@ -1,0 +1,82 @@
+{
+  "routes": [
+    {
+      "id": "SPD001",
+      "name": "Speedo Route 1",
+      "mode": "Speedo",
+      "origin": "Thokar Niaz Baig",
+      "destination": "Railway Station",
+      "stops": [
+        "Thokar Niaz Baig",
+        "Multan Road",
+        "Chauburji",
+        "MAO College",
+        "Railway Station"
+      ],
+      "frequency": "15 minutes",
+      "fare": 30,
+      "operatingHours": {
+        "weekday": {
+          "start": "06:00",
+          "end": "22:00"
+        },
+        "weekend": {
+          "start": "07:00",
+          "end": "21:00"
+        }
+      }
+    },
+    {
+      "id": "MTB001",
+      "name": "Metrobus Line 1",
+      "mode": "Metrobus",
+      "origin": "Gajjumata",
+      "destination": "Shahdara",
+      "stops": [
+        "Gajjumata",
+        "Kalma Chowk",
+        "MAO College",
+        "Niazi Station",
+        "Shahdara"
+      ],
+      "frequency": "10 minutes",
+      "fare": 40,
+      "operatingHours": {
+        "weekday": {
+          "start": "06:00",
+          "end": "22:00"
+        },
+        "weekend": {
+          "start": "07:00",
+          "end": "21:00"
+        }
+      }
+    },
+    {
+      "id": "ORL001",
+      "name": "Orange Line",
+      "mode": "OrangeLine",
+      "origin": "Ali Town",
+      "destination": "Dera Gujran",
+      "stops": [
+        "Ali Town",
+        "Anarkali",
+        "Central Station",
+        "GPO",
+        "Dera Gujran"
+      ],
+      "frequency": "8 minutes",
+      "fare": 50,
+      "operatingHours": {
+        "weekday": {
+          "start": "06:00",
+          "end": "22:00"
+        },
+        "weekend": {
+          "start": "07:00",
+          "end": "21:00"
+        }
+      }
+    }
+  ]
+}
