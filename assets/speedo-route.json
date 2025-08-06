@@ -1,0 +1,607 @@
+{
+  "routes": [
+    {
+      "route_number": "01",
+      "start_point": "Railway Station",
+      "end_point": "Bhatti Chowk",
+      "alignment": [
+        { "name": "Railway Station", "latitude": 31.5772, "longitude": 74.3371 },
+        { "name": "Ek Moriya", "latitude": null, "longitude": null },
+        { "name": "Nawaz Sharif Hospital", "latitude": null, "longitude": null },
+        { "name": "Kashmiri Gate", "latitude": null, "longitude": null },
+        { "name": "Lari Adda", "latitude": 31.6036, "longitude": 74.3290 },
+        { "name": "Azadi Chowk", "latitude": 31.5950, "longitude": 74.3210 },
+        { "name": "Texali Chowk", "latitude": null, "longitude": null },
+        { "name": "Bhatti Chowk", "latitude": 31.5780, "longitude": 74.3200 }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "02",
+      "start_point": "Samanabad Morr",
+      "end_point": "Bhatti Chowk",
+      "alignment": [
+        { "name": "Samanabad Morr", "latitude": null, "longitude": null },
+        { "name": "Ganda Nala", "latitude": null, "longitude": null },
+        { "name": "Shehnai Palace", "latitude": null, "longitude": null },
+        { "name": "Moon Market", "latitude": null, "longitude": null },
+        { "name": "Park Morr", "latitude": null, "longitude": null },
+        { "name": "WASA disposal", "latitude": null, "longitude": null },
+        { "name": "Double Sarkan", "latitude": null, "longitude": null },
+        { "name": "Khawaja Fareed Road", "latitude": null, "longitude": null },
+        { "name": "Sanda", "latitude": null, "longitude": null },
+        { "name": "Chohan Road", "latitude": null, "longitude": null },
+        { "name": "Taj Company", "latitude": null, "longitude": null },
+        { "name": "Corporation Chowk", "latitude": null, "longitude": null },
+        { "name": "UVAS", "latitude": null, "longitude": null },
+        { "name": "Katchery", "latitude": null, "longitude": null },
+        { "name": "Bhatti Chowk", "latitude": 31.5780, "longitude": 74.3200 }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "03",
+      "start_point": "Railway Station",
+      "end_point": "Shahdra Lari Adda",
+      "alignment": [
+        { "name": "Railway Station", "latitude": 31.5772, "longitude": 74.3371 },
+        { "name": "Ek Moriya", "latitude": null, "longitude": null },
+        { "name": "Nawaz Sharif Hospital", "latitude": null, "longitude": null },
+        { "name": "Shranwala Gate", "latitude": null, "longitude": null },
+        { "name": "Kashmiri Gate", "latitude": null, "longitude": null },
+        { "name": "Lari Adda", "latitude": 31.6036, "longitude": 74.3290 },
+        { "name": "Lari Adda Gol Chakkar", "latitude": null, "longitude": null },
+        { "name": "Azadi Chowk", "latitude": 31.5950, "longitude": 74.3210 },
+        { "name": "Timber Market", "latitude": null, "longitude": null },
+        { "name": "METRO", "latitude": null, "longitude": null },
+        { "name": "Niazi Chowk", "latitude": null, "longitude": null },
+        { "name": "Niazi Interchange", "latitude": null, "longitude": null },
+        { "name": "Shahdara", "latitude": 31.6331, "longitude": 74.2750 }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "04",
+      "start_point": "R.A Bazar",
+      "end_point": "Chungi Amar Sidhu",
+      "via": "Walton Road",
+      "alignment": [
+        { "name": "R.A Bazar", "latitude": null, "longitude": null },
+        { "name": "Nadeem Chowk", "latitude": null, "longitude": null },
+        { "name": "T-Stop", "latitude": null, "longitude": null },
+        { "name": "Defence Morr", "latitude": null, "longitude": null },
+        { "name": "Korray Stop", "latitude": null, "longitude": null },
+        { "name": "Shareef Market", "latitude": null, "longitude": null },
+        { "name": "College Stop", "latitude": null, "longitude": null },
+        { "name": "Walton", "latitude": null, "longitude": null },
+        { "name": "Bab e Pakistan", "latitude": null, "longitude": null },
+        { "name": "Workshop", "latitude": null, "longitude": null },
+        { "name": "Packages Mall", "latitude": null, "longitude": null },
+        { "name": "Qainchi", "latitude": null, "longitude": null },
+        { "name": "Ghazi Chowk", "latitude": null, "longitude": null },
+        { "name": "Chungi Amar Sidhu", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "05",
+      "start_point": "Shadbagh Underpass",
+      "end_point": "Bhatti Chowk",
+      "alignment": [
+        { "name": "Shad Bagh Underpass", "latitude": null, "longitude": null },
+        { "name": "Rajput Park", "latitude": null, "longitude": null },
+        { "name": "Madina Chowk", "latitude": null, "longitude": null },
+        { "name": "Lohay Wali Pulley", "latitude": null, "longitude": null },
+        { "name": "Usman Chowk", "latitude": null, "longitude": null },
+        { "name": "Sabzi Mandi", "latitude": null, "longitude": null },
+        { "name": "Badami Bagh", "latitude": null, "longitude": null },
+        { "name": "Lori Adda Gol Chakar", "latitude": null, "longitude": null },
+        { "name": "Azadi Chowk", "latitude": 31.5950, "longitude": 74.3210 },
+        { "name": "Taxali Chowk", "latitude": null, "longitude": null },
+        { "name": "Bhatti Chowk", "latitude": 31.5780, "longitude": 74.3200 }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "06",
+      "start_point": "Babu Sabu",
+      "end_point": "Raj Garh Chowk",
+      "alignment": [
+        { "name": "Babu Sabu", "latitude": null, "longitude": null },
+        { "name": "Bilal Daewoo", "latitude": null, "longitude": null },
+        { "name": "Niazi Adda", "latitude": null, "longitude": null },
+        { "name": "Shezan Factory", "latitude": null, "longitude": null },
+        { "name": "City Bus Stand", "latitude": null, "longitude": null },
+        { "name": "Chowk Yateem Khana", "latitude": 31.5350, "longitude": 74.2980 },
+        { "name": "Sodiwal", "latitude": null, "longitude": null },
+        { "name": "Bhala Stop", "latitude": null, "longitude": null },
+        { "name": "Chappar Stop", "latitude": null, "longitude": null },
+        { "name": "Samabad Morr", "latitude": null, "longitude": null },
+        { "name": "Govt. Dispensary", "latitude": null, "longitude": null },
+        { "name": "Chauburji", "latitude": 31.5540, "longitude": 74.3030 },
+        { "name": "Riwaz Garden", "latitude": null, "longitude": null },
+        { "name": "M.A.O College", "latitude": null, "longitude": null },
+        { "name": "Firdous Cinema", "latitude": null, "longitude": null },
+        { "name": "Raj Garh Chowk", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "07",
+      "start_point": "Bagrian",
+      "end_point": "Chungi Amar Sidhu",
+      "alignment": [
+        { "name": "Bagrian", "latitude": null, "longitude": null },
+        { "name": "Mian Chowk", "latitude": null, "longitude": null },
+        { "name": "Depot Chowk", "latitude": null, "longitude": null },
+        { "name": "Pulley Bus Stop", "latitude": null, "longitude": null },
+        { "name": "Minhaj University", "latitude": null, "longitude": null },
+        { "name": "Hamdard Chowk", "latitude": null, "longitude": null },
+        { "name": "Somi Center Bus Stop", "latitude": null, "longitude": null },
+        { "name": "Nursery Bus Stop", "latitude": null, "longitude": null },
+        { "name": "Rehmat Eye Hospital", "latitude": null, "longitude": null },
+        { "name": "Treat Stop", "latitude": null, "longitude": null },
+        { "name": "Peco Morr", "latitude": null, "longitude": null },
+        { "name": "Kot Lakhpat", "latitude": null, "longitude": null },
+        { "name": "Railway Station", "latitude": 31.5772, "longitude": 74.3371 },
+        { "name": "Phatak Mandi", "latitude": null, "longitude": null },
+        { "name": "Model Town Katchery", "latitude": null, "longitude": null },
+        { "name": "Qainchi", "latitude": null, "longitude": null },
+        { "name": "Ghazi Chowk", "latitude": null, "longitude": null },
+        { "name": "Chungi Amar Sidhu", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "08",
+      "start_point": "Doctor Hospital",
+      "end_point": "Canal",
+      "alignment": [
+        { "name": "Doctor Hospital", "latitude": null, "longitude": null },
+        { "name": "Wafaqi Colony", "latitude": null, "longitude": null },
+        { "name": "Jinnah Hospital", "latitude": 31.4930, "longitude": 74.2970 },
+        { "name": "Islamic Center", "latitude": null, "longitude": null },
+        { "name": "IBA Stop", "latitude": null, "longitude": null },
+        { "name": "Hayley College", "latitude": 31.4980, "longitude": 74.3070 },
+        { "name": "Gate no. 4", "latitude": null, "longitude": null },
+        { "name": "Campus Pull", "latitude": null, "longitude": null },
+        { "name": "Barkat Market", "latitude": 31.5090, "longitude": 74.3440 },
+        { "name": "Kalma Chowk", "latitude": 31.5050, "longitude": 74.3310 },
+        { "name": "Qaddafi Stadium", "latitude": 31.5090, "longitude": 74.3330 },
+        { "name": "Canal", "latitude": 31.5100, "longitude": 74.3400 }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "09",
+      "start_point": "Railway Station",
+      "end_point": "Sham Nagar",
+      "alignment": [
+        { "name": "Railway Station", "latitude": 31.5772, "longitude": 74.3371 },
+        { "name": "Hajji Camp", "latitude": null, "longitude": null },
+        { "name": "Shimla Pahari", "latitude": null, "longitude": null },
+        { "name": "Lahore Zoo", "latitude": 31.5560, "longitude": 74.3250 },
+        { "name": "Chairing Cross", "latitude": null, "longitude": null },
+        { "name": "Ganga Ram Hospital", "latitude": null, "longitude": null },
+        { "name": "Qartaba Chowk", "latitude": null, "longitude": null },
+        { "name": "Chauburji", "latitude": 31.5540, "longitude": 74.3030 },
+        { "name": "Sham Nagar", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "10",
+      "start_point": "Multan Chungi",
+      "end_point": "Qartaba Chowk",
+      "alignment": [
+        { "name": "Multan Chungi", "latitude": null, "longitude": null },
+        { "name": "Elephant Link Road", "latitude": null, "longitude": null },
+        { "name": "Mustafa Town", "latitude": null, "longitude": null },
+        { "name": "Karim Block Market", "latitude": null, "longitude": null },
+        { "name": "Sikandar Block", "latitude": null, "longitude": null },
+        { "name": "Raza Block", "latitude": null, "longitude": null },
+        { "name": "PU Examination Centre", "latitude": null, "longitude": null },
+        { "name": "Science College", "latitude": null, "longitude": null },
+        { "name": "Bhekewal Morr", "latitude": null, "longitude": null },
+        { "name": "Wahdat Colony", "latitude": null, "longitude": null },
+        { "name": "School Stop", "latitude": null, "longitude": null },
+        { "name": "Bank Stop", "latitude": null, "longitude": null },
+        { "name": "Naqsha Stop", "latitude": null, "longitude": null },
+        { "name": "Karmabad", "latitude": null, "longitude": null },
+        { "name": "Aab Para Market", "latitude": null, "longitude": null },
+        { "name": "Canal", "latitude": 31.5100, "longitude": 74.3400 },
+        { "name": "Rehman Pura", "latitude": null, "longitude": null },
+        { "name": "Ichra", "latitude": null, "longitude": null },
+        { "name": "Shama", "latitude": null, "longitude": null },
+        { "name": "LOS", "latitude": null, "longitude": null },
+        { "name": "Qartaba Chowk", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "11",
+      "start_point": "Babu Sabu",
+      "end_point": "Main Market Gulberg",
+      "alignment": [
+        { "name": "Babu Sabu", "latitude": null, "longitude": null },
+        { "name": "Bilal Daewoo", "latitude": null, "longitude": null },
+        { "name": "Niazi Adda", "latitude": null, "longitude": null },
+        { "name": "Shezan Factory", "latitude": null, "longitude": null },
+        { "name": "City Bus Stand", "latitude": null, "longitude": null },
+        { "name": "Chowk Yateem Khana", "latitude": 31.5350, "longitude": 74.2980 },
+        { "name": "Grand Battery Stop", "latitude": null, "longitude": null },
+        { "name": "Scheme Morr", "latitude": null, "longitude": null },
+        { "name": "Kali Kothi Stop", "latitude": null, "longitude": null },
+        { "name": "Flat Stop", "latitude": null, "longitude": null },
+        { "name": "Dubai Chowk", "latitude": null, "longitude": null },
+        { "name": "Gulshan e Iqbal", "latitude": null, "longitude": null },
+        { "name": "Farooq Hospital", "latitude": null, "longitude": null },
+        { "name": "Pilot School", "latitude": null, "longitude": null },
+        { "name": "Bhekewal Morr", "latitude": null, "longitude": null },
+        { "name": "Shaikh Zayed Hospital", "latitude": null, "longitude": null },
+        { "name": "PU Campus", "latitude": null, "longitude": null },
+        { "name": "Campus Pull", "latitude": null, "longitude": null },
+        { "name": "Barkat Market", "latitude": 31.5090, "longitude": 74.3440 },
+        { "name": "Kalma Chowk", "latitude": 31.5050, "longitude": 74.3310 },
+        { "name": "Centre Point", "latitude": null, "longitude": null },
+        { "name": "Liberty Chowk", "latitude": null, "longitude": null },
+        { "name": "Hafeez Centre", "latitude": null, "longitude": null },
+        { "name": "Mini Market", "latitude": null, "longitude": null },
+        { "name": "Home Economics College", "latitude": null, "longitude": null },
+        { "name": "Siddique Trade Centre", "latitude": null, "longitude": null },
+        { "name": "Main Market Gulberg", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "12",
+      "start_point": "R.A Bazar",
+      "end_point": "Civil Secretariat",
+      "alignment": [
+        { "name": "R.A Bazar", "latitude": null, "longitude": null },
+        { "name": "PAF Market", "latitude": null, "longitude": null },
+        { "name": "Telephone Exchange", "latitude": null, "longitude": null },
+        { "name": "Girja Chowk", "latitude": null, "longitude": null },
+        { "name": "Alla-ud-din Road", "latitude": null, "longitude": null },
+        { "name": "Afshan Chowk", "latitude": null, "longitude": null },
+        { "name": "Rahat Bakery", "latitude": null, "longitude": null },
+        { "name": "Fortress Stadium", "latitude": null, "longitude": null },
+        { "name": "Mian Mir", "latitude": null, "longitude": null },
+        { "name": "Gymkhana", "latitude": null, "longitude": null },
+        { "name": "Canal Bridge", "latitude": null, "longitude": null },
+        { "name": "Aitchison College", "latitude": null, "longitude": null },
+        { "name": "Club Road", "latitude": null, "longitude": null },
+        { "name": "PC Hotel", "latitude": null, "longitude": null },
+        { "name": "Governor House", "latitude": null, "longitude": null },
+        { "name": "Lahore Zoo", "latitude": 31.5560, "longitude": 74.3250 },
+        { "name": "Chairing Cross", "latitude": null, "longitude": null },
+        { "name": "Regal Chowk", "latitude": null, "longitude": null },
+        { "name": "GPO", "latitude": null, "longitude": null },
+        { "name": "Anarkali", "latitude": 31.5680, "longitude": 74.3120 },
+        { "name": "PU Old Campus", "latitude": null, "longitude": null },
+        { "name": "Civil Secretariat", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "13",
+      "start_point": "Bagrian",
+      "end_point": "Kalma Chowk",
+      "alignment": [
+        { "name": "Bagrian", "latitude": null, "longitude": null },
+        { "name": "Muslim Chowk", "latitude": null, "longitude": null },
+        { "name": "Ghazi Chowk", "latitude": null, "longitude": null },
+        { "name": "Gondal Chowk", "latitude": null, "longitude": null },
+        { "name": "Butt Chowk", "latitude": null, "longitude": null },
+        { "name": "Lajhna Chowk", "latitude": null, "longitude": null },
+        { "name": "UMT Stop", "latitude": null, "longitude": null },
+        { "name": "Khokar Chowk", "latitude": null, "longitude": null },
+        { "name": "M. Ali Chowk", "latitude": null, "longitude": null },
+        { "name": "Aslam Chowk", "latitude": null, "longitude": null },
+        { "name": "Akbar Chowk", "latitude": null, "longitude": null },
+        { "name": "Bank Stop", "latitude": null, "longitude": null },
+        { "name": "Mochipura Morr", "latitude": null, "longitude": null },
+        { "name": "Model Town Link Road", "latitude": null, "longitude": null },
+        { "name": "Al-Habib Stop", "latitude": null, "longitude": null },
+        { "name": "Treet Stop", "latitude": null, "longitude": null },
+        { "name": "Peco Morr", "latitude": null, "longitude": null },
+        { "name": "Phatak Mandi", "latitude": null, "longitude": null },
+        { "name": "Sabzi Mandi", "latitude": null, "longitude": null },
+        { "name": "Ittefaq Hospital", "latitude": null, "longitude": null },
+        { "name": "Gulab Devi Hospital", "latitude": null, "longitude": null },
+        { "name": "Naseerabad", "latitude": null, "longitude": null },
+        { "name": "Bhabra Stop", "latitude": null, "longitude": null },
+        { "name": "Model Town", "latitude": null, "longitude": null },
+        { "name": "Kalma Chowk", "latitude": 31.5050, "longitude": 74.3310 }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "14",
+      "start_point": "R.A Bazar",
+      "end_point": "Chungi Amar Sidhu",
+      "via": "Defence Road",
+      "alignment": [
+        { "name": "Fauji Foundation", "latitude": null, "longitude": null },
+        { "name": "Bus Stop", "latitude": null, "longitude": null },
+        { "name": "Ali View Garden", "latitude": null, "longitude": null },
+        { "name": "Nadirabad", "latitude": null, "longitude": null },
+        { "name": "Arifaabad", "latitude": null, "longitude": null },
+        { "name": "Bhatta Chowk", "latitude": null, "longitude": null },
+        { "name": "PSO", "latitude": null, "longitude": null },
+        { "name": "Defence Chowk", "latitude": null, "longitude": null },
+        { "name": "DHA Nursery", "latitude": null, "longitude": null },
+        { "name": "Charar Pind", "latitude": null, "longitude": null },
+        { "name": "LESCO", "latitude": null, "longitude": null },
+        { "name": "Sector C (Y-block)", "latitude": null, "longitude": null },
+        { "name": "Chota Ishara Stop", "latitude": null, "longitude": null },
+        { "name": "Naka Stop", "latitude": null, "longitude": null },
+        { "name": "Shoukat Town", "latitude": null, "longitude": null },
+        { "name": "Ghazi Chowk", "latitude": null, "longitude": null },
+        { "name": "Chungi Amar Sidhu", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "15",
+      "start_point": "Qartba Chowk",
+      "end_point": "Babu Sabu",
+      "alignment": [
+        { "name": "Qartba Chowk", "latitude": null, "longitude": null },
+        { "name": "Hakeem M. Ajmal Khan Road", "latitude": null, "longitude": null },
+        { "name": "Gulshan Ravi Road", "latitude": null, "longitude": null },
+        { "name": "Kacha Ferozepur Road", "latitude": null, "longitude": null },
+        { "name": "Babu Sabu", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "16",
+      "start_point": "Railway Station",
+      "end_point": "Bhatti Chowk",
+      "alignment": [
+        { "name": "Railway Station", "latitude": 31.5772, "longitude": 74.3371 },
+        { "name": "Circular Road", "latitude": null, "longitude": null },
+        { "name": "Ek Moriya", "latitude": null, "longitude": null },
+        { "name": "Bhatti Chowk", "latitude": 31.5780, "longitude": 74.3200 }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "17",
+      "start_point": "Canal",
+      "end_point": "Railway Station",
+      "alignment": [
+        { "name": "Canal", "latitude": 31.5100, "longitude": 74.3400 },
+        { "name": "Main Boulevard", "latitude": null, "longitude": null },
+        { "name": "Shadman", "latitude": null, "longitude": null },
+        { "name": "Davis Road", "latitude": null, "longitude": null },
+        { "name": "Shimla Pahari", "latitude": null, "longitude": null },
+        { "name": "Haji Camp", "latitude": null, "longitude": null },
+        { "name": "Railway Station", "latitude": 31.5772, "longitude": 74.3371 }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "18",
+      "start_point": "Bhatti Chowk",
+      "end_point": "Shimla Pahari",
+      "alignment": [
+        { "name": "Bhatti Chowk", "latitude": 31.5780, "longitude": 74.3200 },
+        { "name": "Circular Road", "latitude": null, "longitude": null },
+        { "name": "Nisabt Road", "latitude": null, "longitude": null },
+        { "name": "Abbot Road", "latitude": null, "longitude": null },
+        { "name": "Shimla Pahari", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "19",
+      "start_point": "Main Market",
+      "end_point": "Bhatti Chowk",
+      "alignment": [
+        { "name": "Main Market", "latitude": null, "longitude": null },
+        { "name": "Jail Road", "latitude": null, "longitude": null },
+        { "name": "Lytton Road", "latitude": null, "longitude": null },
+        { "name": "Crust Road", "latitude": null, "longitude": null },
+        { "name": "Lower Mall Road", "latitude": null, "longitude": null },
+        { "name": "Bhatti Chowk", "latitude": 31.5780, "longitude": 74.3200 }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "20",
+      "start_point": "Jain Mandir",
+      "end_point": "Chowk Yateem Khana",
+      "alignment": [
+        { "name": "Jain Mandir", "latitude": null, "longitude": null },
+        { "name": "Al-Mumtaz Road", "latitude": null, "longitude": null },
+        { "name": "Poonch Road", "latitude": null, "longitude": null },
+        { "name": "Lake Road", "latitude": null, "longitude": null },
+        { "name": "Chowk Yateem Khana", "latitude": 31.5350, "longitude": 74.2980 }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "21",
+      "start_point": "Depot Chowk",
+      "end_point": "Thokar Niaz Baig",
+      "alignment": [
+        { "name": "Depot Chowk", "latitude": null, "longitude": null },
+        { "name": "Madar-e-Millat Road", "latitude": null, "longitude": null },
+        { "name": "Ali Road", "latitude": null, "longitude": null },
+        { "name": "Baig Road", "latitude": null, "longitude": null },
+        { "name": "Canal Bank Road", "latitude": null, "longitude": null },
+        { "name": "Thokar Niaz Baig", "latitude": 31.4680, "longitude": 74.2330 }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "22",
+      "start_point": "Depot Chowk",
+      "end_point": "Thokar Niaz Baig",
+      "alignment": [
+        { "name": "Depot Chowk", "latitude": null, "longitude": null },
+        { "name": "Madar-e-Millat Road", "latitude": null, "longitude": null },
+        { "name": "Sutlej Avenue", "latitude": null, "longitude": null },
+        { "name": "Shahrah Nazria-e-Pakistan Avenue", "latitude": null, "longitude": null },
+        { "name": "Thokar Niaz Baig", "latitude": 31.4680, "longitude": 74.2330 }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "23",
+      "start_point": "Valencia",
+      "end_point": "Thokar Niaz Baig",
+      "alignment": [
+        { "name": "Valencia", "latitude": null, "longitude": null },
+        { "name": "Valencia Main Boulevard", "latitude": null, "longitude": null },
+        { "name": "Khayaban-e-Jinnah", "latitude": null, "longitude": null },
+        { "name": "Raiwind Road", "latitude": null, "longitude": null },
+        { "name": "Thokar Niaz Baig", "latitude": 31.4680, "longitude": 74.2330 }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "24",
+      "start_point": "Multan Chungi",
+      "end_point": "Ghazi Chowk",
+      "alignment": [
+        { "name": "Multan Chungi", "latitude": null, "longitude": null },
+        { "name": "College Road", "latitude": null, "longitude": null },
+        { "name": "Maulana Shaukat Ali Road", "latitude": null, "longitude": null },
+        { "name": "Wahdat Road", "latitude": null, "longitude": null },
+        { "name": "Ghazi Chowk", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "25",
+      "start_point": "R.A Bazar",
+      "end_point": "Railway Station",
+      "alignment": [
+        { "name": "R.A Bazar", "latitude": null, "longitude": null },
+        { "name": "Lahore-Bedian Road", "latitude": null, "longitude": null },
+        { "name": "Allama Iqbal Road", "latitude": null, "longitude": null },
+        { "name": "Railway Station", "latitude": 31.5772, "longitude": 74.3371 }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "26",
+      "start_point": "R.A Bazar",
+      "end_point": "Daroghawala",
+      "alignment": [
+        { "name": "R.A Bazar", "latitude": null, "longitude": null },
+        { "name": "T Road", "latitude": null, "longitude": null },
+        { "name": "Shalimar Link Road", "latitude": null, "longitude": null },
+        { "name": "Tufail Road", "latitude": null, "longitude": null },
+        { "name": "Sarfraz Rafique Road", "latitude": null, "longitude": null },
+        { "name": "Daroghawala", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "27",
+      "start_point": "BataPur",
+      "end_point": "Daroghawala",
+      "via": "G.T Road",
+      "alignment": [
+        { "name": "BataPur", "latitude": null, "longitude": null },
+        { "name": "T Road", "latitude": null, "longitude": null },
+        { "name": "Daroghawala", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "28",
+      "start_point": "Quaid-e-Azam Interchange",
+      "end_point": "Airport",
+      "alignment": [
+        { "name": "Quaid e Azam Interchange", "latitude": null, "longitude": null },
+        { "name": "Harbanspura Road", "latitude": null, "longitude": null },
+        { "name": "Zarar Shaheed Road", "latitude": null, "longitude": null },
+        { "name": "Airport", "latitude": 31.5216, "longitude": 74.4036 }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "29",
+      "start_point": "Niazi Interchange",
+      "end_point": "Salamat Pura",
+      "alignment": [
+        { "name": "Niazi Interchange", "latitude": null, "longitude": null },
+        { "name": "Lahore Ring Road", "latitude": null, "longitude": null },
+        { "name": "Band Road", "latitude": null, "longitude": null },
+        { "name": "Sue Wala Road", "latitude": null, "longitude": null },
+        { "name": "Salamat Pura", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "30",
+      "start_point": "Daroghawala",
+      "end_point": "Airport",
+      "alignment": [
+        { "name": "Daroghawala", "latitude": null, "longitude": null },
+        { "name": "T. Road", "latitude": null, "longitude": null },
+        { "name": "Shalimar Link Road", "latitude": null, "longitude": null },
+        { "name": "Airport", "latitude": 31.5216, "longitude": 74.4036 }
+      ],
+      "bus_type": "Standard"
+    },
+    {
+      "route_number": "31",
+      "start_point": "Daroghawala",
+      "end_point": "Lari Adda",
+      "alignment": [
+        { "name": "Daroghawala", "latitude": null, "longitude": null },
+        { "name": "Chamra Mandi", "latitude": null, "longitude": null },
+        { "name": "Cooper Store", "latitude": null, "longitude": null },
+        { "name": "UET", "latitude": null, "longitude": null },
+        { "name": "Shalimar Chowk", "latitude": null, "longitude": null },
+        { "name": "Lari Adda", "latitude": 31.6036, "longitude": 74.3290 }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "32",
+      "start_point": "Shimla Pahari",
+      "end_point": "Ek Moriya",
+      "alignment": [
+        { "name": "Shimla Pahari", "latitude": null, "longitude": null },
+        { "name": "Durand Road", "latitude": null, "longitude": null },
+        { "name": "Queen Mary Road", "latitude": null, "longitude": null },
+        { "name": "Garhi Shahu Bridge", "latitude": null, "longitude": null },
+        { "name": "Cooper Store", "latitude": null, "longitude": null },
+        { "name": "Chamra Mandi", "latitude": null, "longitude": null },
+        { "name": "Ek Moriya", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "33",
+      "start_point": "Cooper Store",
+      "end_point": "Mughalpura",
+      "alignment": [
+        { "name": "Cooper Store", "latitude": null, "longitude": null },
+        { "name": "Workshop Road", "latitude": null, "longitude": null },
+        { "name": "Mughalpura Road", "latitude": null, "longitude": null },
+        { "name": "Mughalpura", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Mini"
+    },
+    {
+      "route_number": "34",
+      "start_point": "Singhpura",
+      "end_point": "Mughalpura",
+      "alignment": [
+        { "name": "Singhpura", "latitude": null, "longitude": null },
+        { "name": "Wheatman Road", "latitude": null, "longitude": null },
+        { "name": "Griffin Road", "latitude": null, "longitude": null },
+        { "name": "Mughalpura", "latitude": null, "longitude": null }
+      ],
+      "bus_type": "Mini"
+    }
+  ]
+}

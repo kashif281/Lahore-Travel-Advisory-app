@@ -1,20 +1,31 @@
+import React from 'react';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { Provider as PaperProvider } from 'react-native-paper';
+import { NavigationContainer } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import RootNavigator from './src/navigation/RootNavigator';
+import { colors } from './src/styles/common';
+
+const theme = {
+  colors: {
+    primary: colors.primary,
+    accent: colors.secondary,
+    background: colors.background,
+    surface: colors.surface,
+    text: colors.text,
+    error: colors.error,
+  },
+};
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaProvider>
+      <PaperProvider theme={theme}>
+        <NavigationContainer>
+        <StatusBar style="auto" />
+        <RootNavigator />
+        </NavigationContainer>
+      </PaperProvider>
+    </SafeAreaProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
